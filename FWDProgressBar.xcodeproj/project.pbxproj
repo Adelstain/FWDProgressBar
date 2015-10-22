@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5C18161B8B0CAB00767745 /* FWDProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5C18151B8B0CAB00767745 /* FWDProgressBar.m */; };
 		BF7F43641B8AC31F00F721B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F43631B8AC31F00F721B2 /* main.m */; };
 		BF7F43671B8AC31F00F721B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F43661B8AC31F00F721B2 /* AppDelegate.m */; };
 		BF7F43691B8AC31F00F721B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7F43681B8AC31F00F721B2 /* Images.xcassets */; };
 		BF7F436C1B8AC31F00F721B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7F436A1B8AC31F00F721B2 /* LaunchScreen.xib */; };
 		BF7F43781B8AC31F00F721B2 /* FWDProgressBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F43771B8AC31F00F721B2 /* FWDProgressBarTests.m */; };
+		BFDDFB531B8AC55700C30A76 /* FWDProgressBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDDFB521B8AC55700C30A76 /* FWDProgressBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5C18141B8B0CAB00767745 /* FWDProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWDProgressBar.h; sourceTree = "<group>"; };
+		BF5C18151B8B0CAB00767745 /* FWDProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWDProgressBar.m; sourceTree = "<group>"; };
 		BF7F435E1B8AC31F00F721B2 /* FWDProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWDProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7F43621B8AC31F00F721B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7F43631B8AC31F00F721B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,6 +39,8 @@
 		BF7F43711B8AC31F00F721B2 /* FWDProgressBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWDProgressBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7F43761B8AC31F00F721B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF7F43771B8AC31F00F721B2 /* FWDProgressBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWDProgressBarTests.m; sourceTree = "<group>"; };
+		BFDDFB511B8AC55700C30A76 /* FWDProgressBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWDProgressBtn.h; sourceTree = "<group>"; };
+		BFDDFB521B8AC55700C30A76 /* FWDProgressBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWDProgressBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 			children = (
 				BF7F43651B8AC31F00F721B2 /* AppDelegate.h */,
 				BF7F43661B8AC31F00F721B2 /* AppDelegate.m */,
+				BF5C18141B8B0CAB00767745 /* FWDProgressBar.h */,
+				BF5C18151B8B0CAB00767745 /* FWDProgressBar.m */,
+				BFDDFB511B8AC55700C30A76 /* FWDProgressBtn.h */,
+				BFDDFB521B8AC55700C30A76 /* FWDProgressBtn.m */,
 				BF7F43681B8AC31F00F721B2 /* Images.xcassets */,
 				BF7F436A1B8AC31F00F721B2 /* LaunchScreen.xib */,
 				BF7F43611B8AC31F00F721B2 /* Supporting Files */,
@@ -210,7 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDDFB531B8AC55700C30A76 /* FWDProgressBtn.m in Sources */,
 				BF7F43671B8AC31F00F721B2 /* AppDelegate.m in Sources */,
+				BF5C18161B8B0CAB00767745 /* FWDProgressBar.m in Sources */,
 				BF7F43641B8AC31F00F721B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +410,7 @@
 				BF7F437D1B8AC31F00F721B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF7F437E1B8AC31F00F721B2 /* Build configuration list for PBXNativeTarget "FWDProgressBarTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +419,7 @@
 				BF7F43801B8AC31F00F721B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
